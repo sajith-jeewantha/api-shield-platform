@@ -101,6 +101,23 @@ api-shield-platform/
 
 [//]: # (└── screenshots/)
 
+###  🌐 Private Docker Network
+
+```text
+                apim-net (private Docker network)
+┌───────────────────────────────┐
+│                               │
+│   wso2-apim                   │
+│   (API Gateway)               │
+│           │                   │
+│           │ HTTP calls        │
+│           ▼                   │
+│   spring-api                  │
+│   (Backend CRUD API)          │
+│                               │
+└───────────────────────────────┘
+```
+
 ### 🎯 Learning Outcomes
 - API Gateway concepts
 - Microservice architecture
